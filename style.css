@@ -1,0 +1,33 @@
+body{
+  background: #191919;
+  padding-top: 50px;
+}
+h1{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.timestamp{
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  color: gray;
+}
+.row{
+  padding: 10px;
+  margin: 10px;
+  -webkit-transition: all 1s ease-out, opacity 1s ease-out;
+  -moz-transition: all 1s ease-out, opacity 1s ease-out;
+  transition: all 1s ease-out, opacity 1s ease-out;
+  overflow:hidden;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  padding-bottom: 20px;
+  max-height: 600px;
+  opacity: 1;
+}
+.row.hidden{
+  opacity: 0;
+  max-height: 0;
+}
