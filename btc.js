@@ -1,4 +1,4 @@
-ಠᴥಠ = {
+ಠᴥಠ = { 
   $components: [
     { $components: [], class: "container",
       _add: function(data){
